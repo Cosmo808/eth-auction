@@ -11,12 +11,12 @@ contract SimpleAuction {
     address public highestBidder;
 
     // 最高出价
-    uint public highestBid;
+    uint public highestBid = 0;
 
     mapping (address => uint) pendingReturns; // 用于取回之前的出价
 
     // 拍卖是否结束，不允许被修改
-    bool ended;
+    bool ended = false;
 
     // 最高出价变动时调用事件
     event HighestBidIncreased(address _bidder, uint _amount);

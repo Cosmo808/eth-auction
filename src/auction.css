@@ -1,0 +1,140 @@
+body {
+    background: #FAE7D0;
+}
+
+body
+.container {
+    margin-left: 20%;
+    margin-top: 7%;
+    width: 60%;
+    background: #FAEFE2;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container
+.title
+.col-md-8{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container
+.title
+.col-md-8 p{
+    padding-left: 2em;
+    font-size: 2em;
+}
+
+.container
+.title
+.col-md-8 i{
+    padding-top: 0.3em;
+}
+
+.container
+.acc{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.container
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.container
+.address
+.add {
+    padding-left: 1em;
+}
+
+.container
+.address i{
+    padding-top: 1.1em;
+    padding-left: 0.5em;
+    color: grey;
+}
+
+.container
+.balance-highest{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.container
+.balance-highest
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 1.5em;
+}
+
+.container
+.balance-highest
+.content{
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-right: 2em;
+    padding-top: 0.25em;
+    padding-left: 0.3em;
+}
+
+
+.container
+.auction{
+    width: 30%;
+    padding-left: 35%;
+    margin-top: -1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container
+.auction-des{
+    width: 30%;
+    padding-left: 35%;
+    padding-bottom: 3em;
+    margin-top: 0em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container
+.auction-des
+.timer{
+    display: flex;
+    flex-direction: row;
+}
+
+.container
+.auction-des
+.deposit-but{
+    background: none;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+    width: 75%;
+    height: 45%;
+    padding-top: 0.2em;
+    padding-left: 0em;
+    margin-top: 1em;
+}
+
+.container
+.auction-des
+.timer p{
+    font-size: 2em;
+    font-weight: bold;
+    color: #e05e47;
+    padding-left: 0.5em;
+    margin-top: 0.4em;
+    margin-left: -0.1em;
+    margin-right: -0.1em;
+}
